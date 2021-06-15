@@ -166,6 +166,7 @@ console.log(j["calcAge"](1999));
 // for loop
 for (let i = 1; i <= 10; i++) {
     console.log(`hello ${i}`);
+
 }
 
 // while loop
