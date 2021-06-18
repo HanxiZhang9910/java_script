@@ -1,22 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
 body {
   /*All the child families will be inhereited from this body */
   background-color: rgb(255, 255, 211);
   font-family: Arial;
   font-size: 20px;
+  padding: 50px;
 }
 
 h1 {
   font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 .first {
   /*first get the name of the classes, ids should be unique, 
     but classes do not have be that*/
   color: brown;
+  padding: 50px;
 }
 
 #your-name {
   /*Get the id*/
   background-color: rgb(255, 220, 105);
   border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  background-color: yellow;
+}
+
+#your-name h2 {
+  color: olivedrab;
+}
+
+#course-image {
+  /* width: 300px; */
+  height: 300px;
 }
